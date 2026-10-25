@@ -1,28 +1,21 @@
-# Source translation and finish
+# Developing an original personification
 
-Read when the source is difficult to translate or a design feels generic. These are options for creative reasoning, not a checklist to copy into the image prompt.
+Read when a concept feels generic or repeats an earlier character. Use this to rethink the creative intent, not to build a detailed costume brief.
 
-## Translate identity into design
+## Start from the source's identity
 
-Choose the features that make this particular source recognizable. They may influence several design choices together; there is no required cue count or one-to-one mapping.
+Consider what makes this source distinct in form, purpose, meaning or associations. Imagine a person whose identity naturally expresses those qualities. Let this guide a whole character concept with its own personality.
 
-| Source feature | Possible character translation |
-| --- | --- |
-| Palette and color blocking | Hair undertones, clothing panels, trim or small accents |
-| Geometry, silhouette or mechanism | Hairstyle, neckline, seams, garment structure or fastening |
-| Material and texture | Fabric weight, sheen, translucency or accessory finish |
-| Function or abstract meaning | Expression, posture, role or symbolic shape |
+Keep meaningful recognizability while allowing metaphor, surprise and interpretation. The source can inspire more than its palette or emblem.
 
-A camera's aperture could inform an iris-shaped clasp and radial seams; a whale's curved silhouette could inform flowing fabric edges. Either idea can work with different hair, outfits and personalities. Preserve recognizable structure while developing an original character.
+## Let the concept produce the design
 
-## Keep wardrobe choices open
+Express the intended personality, appeal and overall mood. Leave visual solutions to the image model unless the user has selected them. There is no standard outfit, beauty formula or fixed balance of exposed and covered skin.
 
-Sleek tailoring, asymmetric cuts, airy layers, fine edging or jewel-like accents can support the desired mood. Select a coherent combination for the current character. They need not all appear, and neither a short skirt nor a long dress is mandatory. Make neckline, waist, hem and skin exposure work together to flatter the adult figure.
+For a new source, develop a fresh identity. An earlier success establishes a quality reference, not a reusable character to recolor. Preserve continuity when the user explicitly requests the same character.
 
-Across a series, vary the silhouette, hair, temperament, materials and footwear while retaining the shared illustration quality.
+## Judge the whole result
 
-## Make refinement visible
+Look for an imaginative, coherent, appealing personification that feels connected to its source. Refined drawing and a resolved design should support that identity; quantity of ornament is not a quality target.
 
-Put detail where it contributes to the design: facial features and hair, visible garment edges, a focal clasp or another meaningful accessory. Seams and trim should follow the garment; fastenings should connect plausibly; small ornament should have designed structure rather than simply repeating a flat symbol.
-
-Distinguish the materials actually used through their light response, fold behavior and edge treatment. Fine linework, nuanced midtones and selective crisp accents can support a polished 2D finish. Give focal areas richer information and leave other surfaces quieter. Refinement comes from resolved drawing and craftsmanship, not an indiscriminate increase in ornament.
+If a result repeats a previous concept, return to what makes the new source distinctive. Changing colors or adding a different emblem may leave the underlying character unchanged.
