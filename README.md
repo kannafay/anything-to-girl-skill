@@ -1,6 +1,6 @@
 # anything-to-girl-skill
 
-A portable Agent Skill that turns text or image references into original female anime characters. Defaults: an adult character, flat hand-drawn 2D rendering, and one directly generated full-body illustration without text. Additional images, design sheets, or crops require an explicit request.
+A portable Agent Skill that turns text or image references into original female characters. Defaults: an adult character in a refined, delicately painted 2D style, fine hair and facial detail, soft shading, distinct materials, and a quiet pale neutral background. Output is one directly generated full-body illustration without text. Style references guide rendering without importing their characters, lettering, or multi-panel layouts. Additional images, design sheets, or crops require an explicit request.
 
 Load [SKILL.md](SKILL.md) from the repository root using your agent's skill support. Image generation and editing require suitable tools in the host environment. All skill instructions and generation prompts are in English.
 
