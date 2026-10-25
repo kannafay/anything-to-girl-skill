@@ -31,17 +31,18 @@ These are independent examples, NOT simultaneous subjects. Use one source to des
 
 ### 1. Orange radial AI logo
 - Primary anchors: compact orange starburst / many tapered rays, warm terracotta, cream contrast.
-- Character DNA: warm amber eyes; orange radial ornament integrated into side hair; cream blouse and clay-orange panels; soft, multi-layered sleeves; thoughtful, literary temperament.
-- Visual test: a small radial shape in hair plus warm color-blocking and soft scholarly fashion is stronger than a huge corporate logo printed on a shirt.
+- Character DNA: warm amber eyes; compact radial hair hardware and a source-shaped waist fastening; ivory, terracotta and charcoal color blocking; thoughtful, engaging adult femininity.
+- Wardrobe options: a fitted asymmetric charcoal mini dress with a short draped ivory jacket and terracotta lining; or a structured ivory bodice, airy short layered skirt and a terracotta split train with fine pearl or amber accents. Choose one coherent design or blend selected details.
+- Visual test: radial geometry expressed in tailoring and small coordinated accessories is stronger than repeating a large corporate emblem on every surface.
 
 ### 2. Black-and-white interlocking AI knot logo
 - Primary anchors: overlapping loop structure, near-monochrome palette, continuous interconnection.
-- Character DNA: charcoal-haired adult woman; interlocking metallic hairpiece; overlapping straps/seams; white inner layer with a black tailored outer layer; calm, confident, curious energy.
+- Character DNA: charcoal-haired adult woman; interlocking metallic hairpiece; overlapping straps/seams; a fitted black outfit with an asymmetric hem and a cropped or draped white outer layer; calm, confident, curious energy.
 - Distinction: do not imitate the orange logo's soft ruffles; use well-defined precise layers and a clean urban silhouette.
 
 ### 3. Blue whale-shaped technology logo
 - Primary anchors: vivid cobalt blue, whale/water silhouette, white negative space, deep-sea metaphor.
-- Character DNA: silver-white hair with ocean-blue highlights; a small whale-shaped hairpin; curved wave-like transparent jacket tails; blue glass detailing; elegant exploratory character.
+- Character DNA: silver-white hair with ocean-blue highlights; a compact fin-inspired hairpin; wave-shaped neckline or skirt construction, flowing translucent fabric tails and blue glass detailing; elegant exploratory character.
 - Distinction: emphasize fluid shapes, aquatic gradients and precise tech accessories instead of generic black futuristic armor.
 
 ### 4. Classic red aluminum soda can
@@ -50,19 +51,20 @@ These are independent examples, NOT simultaneous subjects. Use one source to des
 
 ### 5. Black mirrorless camera
 - Primary anchors: circular lens, rectangular body, shutter, textured grip.
-- Character DNA: neat dark bob with circular metallic clasp; structured rectangular coat; iris-inspired brooch and concentric stitching; observant expression, city-photographer vibe.
+- Character DNA: neat dark bob with circular metallic clasp; a cropped angular jacket over a fitted dress or tailored separates; iris-inspired brooch and concentric stitching; observant expression, city-photographer vibe.
 
 ### 6. Desk lamp
 - Primary anchors: lamp shade curve, hinge, pool of light, matte metal.
-- Character DNA: arched collar and bell-shaped shoulder cape; hinge-like cuff hardware; warm facial light; focused, quiet night-study persona.
+- Character DNA: arched neckline and a short bell-shaped cape framing the shoulders; a defined waist and hinge-like cuff hardware; warm facial light; focused, quiet night-study persona.
 
 ## D. Anti-template checks
 
 When producing multiple characters, independently choose all of these before image generation:
 
-- Silhouette: slender column, layered A-line, asymmetric coat, tailored pants, sporty mini silhouette, or full long dress.
+- Silhouette: fitted mini dress, layered short A-line, asymmetric separates, cropped jacket, tailored pants, sporty mini silhouette, or a long slit dress with a flowing train.
+- Wardrobe balance: choose how neckline, shoulders, waist and legs contribute to the silhouette. Vary exposed and covered areas with the source and mood; make each outfit flattering and coordinated.
 - Hair: short crop, bob, braid, pinned updo, mid-length waves, ponytail, long straight or twin-tail (based on source geometry).
-- Temperament: playful, poised, composed, studious, mysterious, energetic or serene (based on source function).
+- Temperament: playful, poised, composed, studious, mysterious, energetic or serene (based on source function), expressed through an attractive face, engaging eyes and a graceful pose.
 - Material: matte knit, chiffon, polished metal, nylon, organza, velvet or satin (based on source texture).
 - Shoe logic: boots, sneakers, loafers, platforms, heels or flats to match outfit/role, not automatically heels every time.
 
