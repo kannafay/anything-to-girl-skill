@@ -15,8 +15,17 @@ if (
   throw new Error('Invalid package version: use x.y.z with an optional prerelease or build suffix.');
 }
 
+const files = [
+  'SKILL.md',
+  'agents/openai.yaml',
+  'references/design-language.md',
+  'references/image-prompts.md',
+];
+const entries = Object.fromEntries(await Promise.all(
+  files.map(async (file) => [`${name}/${file}`, await readFile(join(root, file))]),
+));
 const archive = zipSync(
-  { [`${name}/SKILL.md`]: await readFile(join(root, 'SKILL.md')) },
+  entries,
   { level: 9, mtime: new Date(2000, 0, 1) },
 );
 const output = join(root, 'dist', `${name}-${version}.zip`);

@@ -11,6 +11,12 @@ import { unzipSync } from 'fflate';
 const execFileAsync = promisify(execFile);
 const buildScript = fileURLToPath(new URL('../scripts/build.mjs', import.meta.url));
 const skill = '---\nname: example-skill\ndescription: Example skill.\n---\n\n# Example\n';
+const skillFiles = {
+  'SKILL.md': skill,
+  'agents/openai.yaml': 'interface:\n  display_name: "Example skill"\n',
+  'references/design-language.md': '# Design language\n\nSource-to-character examples.\n',
+  'references/image-prompts.md': '# Image prompts\n\nFull-body illustration template.\n',
+};
 const build = (cwd) => execFileAsync(process.execPath, [buildScript], { cwd });
 const manifest = (root, values = {}) =>
   writeFile(join(root, 'package.json'), JSON.stringify({
@@ -28,23 +34,29 @@ async function fixture(t) {
     await rm(root, { recursive: true, force: true });
   });
   await manifest(root);
-  await writeFile(join(root, 'SKILL.md'), skill);
+  for (const [file, content] of Object.entries(skillFiles)) {
+    const target = join(root, file);
+    await mkdir(dirname(target), { recursive: true });
+    await writeFile(target, content);
+  }
   return root;
 }
 
-test('packages SKILL.md alone and excludes extra assets from a reproducible versioned ZIP', async (t) => {
+test('packages the skill and its companion text files in a reproducible versioned ZIP', async (t) => {
   const root = await fixture(t);
 
   await build(root);
   const archive = await readFile(join(root, 'dist', 'example-skill-1.2.3.zip'));
   const entries = unzipSync(archive);
-  assert.deepEqual(Object.keys(entries), ['example-skill/SKILL.md']);
-  assert.deepEqual(Buffer.from(entries['example-skill/SKILL.md']), Buffer.from(skill));
+  assert.deepEqual(Object.keys(entries), Object.keys(skillFiles).map(file => `example-skill/${file}`));
+  for (const [file, content] of Object.entries(skillFiles)) {
+    assert.deepEqual(Buffer.from(entries[`example-skill/${file}`]), Buffer.from(content));
+  }
 
   await writeFile(join(root, 'README.md'), 'Development documentation');
   await writeFile(join(root, '.env'), 'TEST_ONLY=do-not-package');
-  await mkdir(join(root, 'references'));
   await writeFile(join(root, 'references', 'example.png'), Buffer.from([0x89, 0x50, 0x4e, 0x47]));
+  await writeFile(join(root, 'references', 'private-notes.md'), 'Do not package');
   await build(root);
   assert.deepEqual(await readFile(join(root, 'dist', 'example-skill-1.2.3.zip')), archive);
 
@@ -66,9 +78,11 @@ test('rejects unsafe package metadata before creating output', async (t) => {
   }
 });
 
-test('fails without a skill entrypoint', async (t) => {
-  const root = await fixture(t);
-  await rm(join(root, 'SKILL.md'));
-  await assert.rejects(build(root), /ENOENT/);
-  await assert.rejects(readdir(join(root, 'dist')), { code: 'ENOENT' });
+test('fails before creating output when the skill or a companion text file is missing', async (t) => {
+  for (const file of Object.keys(skillFiles)) {
+    const root = await fixture(t);
+    await rm(join(root, file));
+    await assert.rejects(build(root), /ENOENT/);
+    await assert.rejects(readdir(join(root, 'dist')), { code: 'ENOENT' });
+  }
 });

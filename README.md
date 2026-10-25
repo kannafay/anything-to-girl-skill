@@ -1,8 +1,8 @@
-# anything-to-girl-skill
+# everything-to-anime-girl
 
-A portable Agent Skill that turns text or image references into original female characters. Defaults: an adult character in a polished 2D anime illustration, with fine integrated linework, subtle facial volume, smooth tonal transitions, detailed painted materials, and a quiet pale neutral background. The default style is fully described in `SKILL.md` and requires no reference images or bundled assets. Both overly flat coloring and photographic or CGI rendering miss that target. Output is one directly generated full-body illustration without text. Optional user-supplied style references guide rendering without importing their characters, lettering, or multi-panel layouts. Prompt-inference requests receive a usable description of visible style features without image generation. Additional images, design sheets, or crops require an explicit request.
+A portable Agent Skill that turns objects, products, animals, brands, photos, and concepts into distinctive original adult female anime characters. Translate source shapes, colors, materials, and functions into coherent character designs using the supplied design framework and prompt templates. Output is one standalone head-to-shoes full-body illustration without text, in a polished 2D anime / painterly anime game-character style. No insets, extra views, turnarounds, collages, or design sheets. Text-only concept and prompt requests remain text-only.
 
-Load [SKILL.md](SKILL.md) from the repository root using your agent's skill support. Image generation and editing require suitable tools in the host environment. All skill instructions and generation prompts are in English.
+Load [SKILL.md](SKILL.md) from the repository root using your agent's skill support. Keep its companion text files available: [design language](references/design-language.md), [image prompts](references/image-prompts.md), and [UI metadata](agents/openai.yaml). Image generation and editing require suitable tools in the host environment. Skill instructions and generation prompts are in English.
 
 ## Packaging
 
@@ -13,6 +13,6 @@ pnpm install --frozen-lockfile
 pnpm build
 ```
 
-Set `version` in [package.json](package.json) before a release. The build writes `dist/anything-to-girl-skill-<version>.zip`, containing only `anything-to-girl-skill/SKILL.md`. Building does not change the version.
+Set `version` in [package.json](package.json) before a release. The build writes `dist/everything-to-anime-girl-<version>.zip`, containing `SKILL.md`, `agents/openai.yaml`, `references/design-language.md`, and `references/image-prompts.md` under `everything-to-anime-girl/`. Only these four text files are included. Building does not change the version.
 
-Run `pnpm test` to check standalone packaging, exclusion of extra assets, version naming, reproducibility, and invalid or missing inputs.
+Run `pnpm test` to check complete packaging of the skill and its companion text files, exclusion of extra assets, version naming, reproducibility, and invalid or missing inputs.
