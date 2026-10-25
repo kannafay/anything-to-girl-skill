@@ -4,7 +4,7 @@ Use the core prompt as a flexible expression of intent. Identify the current sou
 
 ## Core prompt
 
-"Create a new, independent adult female personification of [SOURCE], guided by [CHARACTER CONCEPT]. Give her captivating beauty, distinctive presence and a memorable, coherent overall design with a clear visual focus. Interpret the source inventively, using its motifs selectively. Freely develop the visual details. Refined, expressive 2D anime illustration with fine integrated linework and nuanced layered coloring. One complete full-body character wearing closed-toe footwear, with a subordinate background; no sandals, open-toe shoes, text, panels or inset views."
+"Create a new, independent adult female personification of [SOURCE], guided by [CHARACTER CONCEPT]. Give her captivating beauty, distinctive presence and a memorable, coherent overall design. Interpret the source inventively, using its motifs selectively. Freely develop the visual details. Refined, expressive 2D anime illustration with fine integrated linework and nuanced layered coloring. Place her in a complete setting belonging to the concept, with spatial depth, environmental detail and unified lighting. Keep the character as the visual focus, with her whole head and both feet visible. Optionally include very brief artistic lettering as a small, unobtrusive accent, or omit it. Closed-toe footwear; no sandals, open-toe shoes, panels or inset views."
 
 Use `[CHARACTER CONCEPT]` for a concise interpretation of the source's identity and the woman's personality. Choose it after comparing different overall ideas; do not fill this slot with a garment inventory, a standard persona used for every source, or a string of quality adjectives.
 
@@ -17,6 +17,8 @@ Use `[CHARACTER CONCEPT]` for a concise interpretation of the source's identity 
 ## Tailor it to the request
 
 - Add necessary source context and the user's explicit requests. Avoid filling in every visual decision before generation.
+- Make the complete setting part of the request; do not reduce it to a plain or gradient backdrop unless the user asks for that treatment.
+- Choose afresh whether a small artistic typographic accent should appear, allowing either outcome without a fixed frequency or rotation. If included, keep wording brief and legible, place it away from the character, and keep its visual weight low. Do not automatically append a title or source name to every image.
 - Make the selected concept carry the creative direction. If a result lacks impact, reconsider the concept before extending the prompt with more decoration or synonyms for quality.
 - If a brand name or named style reference appears to pull results toward a recurring archetype, try expressing the relevant source identity and illustration qualities descriptively. Preserve the actual source's meaning and recognizable features; a different wording is a test of the visual association, not proof of its cause.
 - For supplied images, identify source/identity and style-only roles. A style guide conveys quality without defining the new character's appearance or outfit.
@@ -25,4 +27,4 @@ Use `[CHARACTER CONCEPT]` for a concise interpretation of the source's identity 
 
 ## Revision prompt
 
-"Apply [REQUESTED CHANGE] to this adult character, preserving her identity and unmentioned design. Maintain a refined, text-free full-body illustration with closed-toe footwear. No sandals or open-toe shoes."
+"Apply [REQUESTED CHANGE] to this adult character, preserving her identity and unmentioned design, setting and lettering. Maintain a refined full-body illustration with closed-toe footwear. Keep any lettering subtle and secondary. No sandals or open-toe shoes."

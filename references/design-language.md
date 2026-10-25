@@ -24,6 +24,12 @@ Use recent outputs to notice repeated styling rather than automatically passing 
 
 Variety is a goal for the whole design, not a demand to cycle through a wardrobe catalog. Leave styling choices open within the explicit constraints in `SKILL.md`, including its footwear exclusion, while inviting a coherent direction that expresses the current source. Avoid treating the absence of a prescribed choice as a reason to keep reusing the last one.
 
+## Build the character's setting
+
+Give the character a complete environment that belongs to her concept. Establish a sense of place, depth and atmosphere, with lighting and perspective connecting figure and setting. Keep her silhouette and face readable within the scene. A large emblem or decorative glow by itself is not a developed setting; avoid reusing the same stage for unrelated concepts.
+
+Lettering is an optional compositional accent, not a required part of every image. Decide afresh whether to include it. A brief source name or fitting title may use artistic lettering in a quiet area, with visual weight kept below the character and the main scene. An image without lettering is equally valid.
+
 ## Judge the whole result
 
 Look for an imaginative, coherent, appealing personification that feels connected to its source. Assess whether the overall design has a clear visual focus and whether the intended personality is apparent. Refined drawing should support that identity; quantity of ornament is not a quality target.

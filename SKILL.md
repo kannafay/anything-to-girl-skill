@@ -1,6 +1,6 @@
 ---
 name: anything-to-girl-skill
-description: "Turn an object, logo, image or concept into a recognizable original adult female anime character. Use for personification / gijinka requests, including '万物皆可娘化', '娘化', '拟人化' or '二次元立绘', and for related character revisions or reusable image prompts. Output a standalone full-body illustration without text."
+description: "Turn an object, logo, image or concept into a recognizable original adult female anime character. Use for personification / gijinka requests, including '万物皆可娘化', '娘化', '拟人化' or '二次元立绘', and for related character revisions or reusable image prompts. Output a single-character full-body scene, optionally with subtle artistic lettering."
 ---
 
 # Everything to Anime Girl
@@ -31,13 +31,15 @@ Carry the selected idea into the production prompt as a brief character concept,
 
 ## Output format
 
-- One adult character shown once in a standalone full-body composition, with the entire head and both feet visible. Keep the background secondary to the character.
+- One adult character shown once in a full-body illustration with the entire head and both feet visible.
+- Default to a complete illustrated setting connected to the character concept. Give it spatial depth, environmental detail and lighting shared with the character, while keeping her the visual focus. A plain backdrop, gradient or isolated cutout is for an explicit user request, not the default. Let the setting vary naturally with the concept.
 - Require closed-toe footwear. No sandals or open-toe shoes, including high-heeled and strappy sandals. Choose the remaining footwear and legwear freely to suit the character.
-- No text anywhere, including clothes and props. No panels, inset portraits, extra views, turnarounds or collages. A style reference's layout does not change this format.
+- For each new image, optionally choose a small artistic typographic accent or omit lettering entirely. Vary its presence spontaneously rather than making it a required component. If used, keep it brief, meaningful and legible, styled to suit the artwork and placed in quiet negative space without covering the character. The lettering must remain visually subordinate; do not turn the image into a text-heavy poster. Preserve existing lettering for local edits unless asked to change it.
+- No panels, inset portraits, extra views, turnarounds or collages. A style reference's layout does not change this format.
 
 ## Compose, generate and deliver
 
-- For a new source, write a self-contained English prompt around the source, selected character concept and output format. Explicitly request an independent creation, with an appealing overall design and a clear visual focus. Leave visual realization to the image model; add concrete details only for explicit user choices or necessary source facts. Use [image-prompts.md](references/image-prompts.md) as a flexible starting point.
+- For a new source, write a self-contained English prompt around the source, selected character concept, a complete setting and output format. Explicitly request an independent creation, with an appealing overall design and a clear visual focus. Leave visual realization to the image model; add concrete details only for explicit user choices or necessary source facts. Keep typography optional and subtle. Use [image-prompts.md](references/image-prompts.md) as a flexible starting point.
 - Use the tool's fresh-generation mode when it offers one. For a new source, supply only that source's image references and any explicitly selected style references; do not forward previous generation IDs or character images as edit inputs. If a recent-images selector would include unrelated characters, prefer explicit references to the current inputs. For a requested revision, use the intended character as the edit target and preserve unmentioned details. Use only controls the tool actually exposes; invoking a skill does not itself reset conversation history or hidden tool state.
 - Generate the requested image count, defaulting to one. Keep replies brief and in the user's language; avoid duplicating an image already displayed by the tool.
-- When viewable, assess the whole character's attraction, originality, source connection and finish alongside format compliance. Check whether the selected concept is visible rather than just its palette or emblem. If the result feels generic, revisit the concept instead of adding more ornaments or quality adjectives. Keep local corrections focused. If generation is unavailable, explain the limitation.
+- When viewable, assess the character's attraction, originality, source connection and finish, the developed setting, and format compliance. Check that any lettering is brief, artistic and secondary to the character. Check whether the selected concept is visible rather than just its palette or emblem. If the result feels generic, revisit the concept instead of adding more ornaments or quality adjectives. Keep local corrections focused. If generation is unavailable, explain the limitation.
