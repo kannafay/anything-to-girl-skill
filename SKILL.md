@@ -3,44 +3,44 @@ name: anything-to-girl-skill
 description: Create original female anime personifications of objects, animals, places, logos, or abstract concepts from text or images. Use for moe anthropomorphism or gijinka requests, including character art, design sheets, reusable prompts, and revisions to an existing personification.
 ---
 
-# 万物皆可娘化
+# Anything to Girl
 
-把输入对象转化为具有鲜明来源特征的原创女性角色，默认采用成年女性形象与二维手绘动漫画风。即使隐藏名称，角色的造型也应让人联想到原对象。用户明确指定的风格、构图和用途优先于默认设置。
+Transform the source into an original female character with recognizable source traits. Default to an adult woman in a hand-drawn 2D anime style. The design should evoke the source even without its name. Explicit user choices of style, composition, and purpose override these defaults.
 
-## 理解输入
+## Interpret the Input
 
-- 接受名称、概念、图片或两者组合。以当前参考图中的可见特征为依据，文字要求补充设计方向；不要臆造产品功能或品牌属性。仅在用户要求或确需核实时查找外部资料。
-- 连续创作中，换一个对象或仅发送新图片续作时，围绕新来源独立设计；要求修改已有角色时，沿用该角色并结合新的修改参考。只有明确要求组合时才融合多个来源。
-- 自行补足发型、服装、姿势和背景等创作选择。仅在来源缺失、含混或要求存在影响结果的冲突时提问。
+- Accept a name, concept, image, or a combination. Ground the design in visible features of the current reference image, with text providing further direction. Do not invent product functions or brand attributes. Consult external sources only when requested or needed for verification.
+- In a series, a different object or a new image sent as the next item calls for an independent design. When revising an existing character, retain that character and incorporate any new editing references. Combine sources only when explicitly requested.
+- Choose suitable hair, clothing, pose, and background without asking about every creative detail. Ask only when the source is missing or ambiguous, or conflicting requirements materially affect the result.
 
-## 转译设计
+## Translate the Design
 
-先选出三至五个最有辨识度的来源特征，再融入不同设计层面，避免堆砌零件：
+Select three to five distinctive source traits and distribute them across different design elements, avoiding a pile of literal parts:
 
-| 来源特征 | 角色表达 |
+| Source trait | Character expression |
 | --- | --- |
-| 轮廓、结构、几何形状 | 发型轮廓、领口、袖型、服装剪裁与整体比例 |
-| 主色、辅色、点缀色 | 发色、眼睛、服装分区与饰边 |
-| 材质、纹理、层次 | 面料、表面质感、叠穿与局部装饰 |
-| 标志、独特部件或机制 | 发饰、扣件、首饰、小型道具及其结构 |
-| 功能、行为或概念隐喻 | 表情、姿态、角色气质、能力与环境线索 |
+| Silhouette, structure, geometry | Hair silhouette, neckline, sleeves, garment cuts, overall proportions |
+| Main, secondary, and accent colors | Hair, eyes, clothing color blocks, trim |
+| Materials, textures, layers | Fabrics, surface treatments, layered clothing, local details |
+| Emblems, distinctive parts, mechanisms | Hair ornaments, fasteners, jewelry, small props and their construction |
+| Function, behavior, conceptual metaphor | Expression, pose, temperament, abilities, environmental cues |
 
-- 保留至少三处有来源依据的设计，其中至少两处不依赖文字或标志。让关键形状和功能参与造型，避免仅让角色拿着原物或穿上印有标志的衣服。
-- 抽象概念可选用清晰的视觉隐喻；没有参考图的对象可作合理创作。将创作演绎与来源事实区分开。
-- 先确定整体轮廓，再细化服装与配饰。不同来源应带来发型、服装结构、鞋履和气质的变化，避免反复套用同一张脸或服装模板。
-- 默认采用平面手绘动漫画风：清晰描线、平涂色块、少量硬边阴影，材质用简化图形表达。保持自然身体比例；不默认使用三维渲染、半写实厚涂、写实反射或连续明暗渐变。
+- Include at least three source-based design features, with at least two independent of text or logos. Integrate defining shapes and functions into the design; avoid relying only on holding the original object or wearing its logo.
+- Use clear visual metaphors for abstract concepts and reasonable creative interpretation when no reference image exists. Distinguish creative interpretation from source facts.
+- Establish the overall silhouette before detailing clothing and accessories. Different sources should lead to different hairstyles, clothing structures, footwear, and temperaments, rather than a recurring face or outfit template.
+- Default to flat, hand-drawn anime rendering: clear outlines, flat colors, and a few hard-edged shadows, with materials conveyed through simplified shapes. Keep natural body proportions. Do not default to 3D rendering, semi-realistic painting, realistic reflections, or continuous shading gradients.
 
-## 选择输出
+## Choose the Output
 
-- **默认立绘**：单角色竖版全身图，头顶到双脚完整可见，背景简洁并呼应来源。比例可采用二比三或三比四，默认不加拼贴、细节插图和说明文字。
-- **设定页或多视图**：仅在用户要求时提供，按指定视角与布局呈现同一个设计；面容、发型、服装结构、配色及配饰位置保持一致。
-- **其他形式**：头像、Q版、动作插画、多人组合等按明确要求处理；随输出形式调整取景，不强套全身构图。
-- **文字方案或提示词**：用户只要文字时不生成图片。用简洁内容交代来源特征、角色设计和构图；需要提示词时整理为可直接使用的描述。
+- **Default character art:** One character in a vertical full-body composition, with the entire head and both feet visible. Use a simple background that echoes the source. A 2:3 or 3:4 ratio is suitable. Omit collages, detail insets, and explanatory text by default.
+- **Design sheets or multiple views:** Provide these only when requested, following the specified views and layout. Every view must show the same face, hair, clothing construction, palette, and accessory placement.
+- **Other formats:** Follow explicit requests for avatars, chibi designs, action illustrations, group compositions, or other formats. Adapt the framing to the format instead of forcing a full-body view.
+- **Text concepts or prompts:** Do not generate an image when the user requests text only. Briefly describe the source traits, character design, and composition; provide a ready-to-use prompt when requested.
 
-## 生成与迭代
+## Generate and Iterate
 
-- 需要图片时调用当前环境可用的图像生成或编辑工具，并按工具要求实际传入相关参考图。若没有可用工具或无法访问必要参考，说明限制；可提供文字方案，但不得声称已生成或修改图片。
-- 将来源特征、角色造型、服装、姿态、构图和画风组织成一致的提示词，只补充与当前任务有关的约束。需要图中文字时使用准确名称和拼写，省略无意义的小字。
-- 能查看结果时，检查来源辨识度、指定画风与构图、肢体与配饰结构；全身图确认头脚完整，多视图核对设计一致性。发现明显偏差时聚焦该问题修正；一次针对性修正后仍未解决，就说明残留问题，避免无休止重试。
-- 修改时只调整用户指定的部分及必要的关联细节，保留其他身份与来源特征；换脸、换装等明确要求可覆盖对应部分。新对象重新设计，系列作品可统一呈现方式。
-- 用用户的语言简洁交付。生成图片时以图片为主，仅在有助于理解时简述设计；不要默认附上内部分析或完整提示词。
+- When an image is needed, use an available image generation or editing tool and actually attach the relevant reference images as required by that tool. If no suitable tool is available or a necessary reference is inaccessible, explain the limitation. You may offer a text concept, but never claim an image was generated or edited.
+- Write the generation prompt in English, combining source traits, character design, clothing, pose, composition, and style into a coherent description. Add only constraints relevant to the task. For text in the image, preserve accurate names and spelling; omit meaningless tiny labels.
+- When the result is viewable, check source recognizability, requested style and composition, anatomy, and accessory construction. Check complete head-to-feet framing for full-body art and design consistency across multiple views. Correct obvious deviations with a focused edit. If one targeted correction does not resolve the issue, report what remains instead of retrying indefinitely.
+- Edit only the requested elements and necessary related details, preserving other identity and source traits. Explicit face or outfit changes override those respective elements. Redesign for a new source; a series may share a consistent presentation style.
+- Respond concisely in the user's language. For image requests, lead with the image and explain the design only when useful. Do not include internal analysis or the full prompt by default.
