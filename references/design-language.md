@@ -16,7 +16,7 @@ For a new source, develop a fresh identity. An earlier success establishes a qua
 
 Use recent outputs to notice repeated styling rather than automatically passing them back as visual inputs. Referencing an earlier character as a style guide requires explicit user intent, with the reference's role clearly limited to illustration quality.
 
-Variety is a goal for the whole design, not a demand to cycle through a wardrobe catalog. Leave footwear, legwear and other styling choices open while inviting a coherent direction that expresses the current source. Avoid treating the absence of a prescribed choice as a reason to keep reusing the last one.
+Variety is a goal for the whole design, not a demand to cycle through a wardrobe catalog. Leave styling choices open within the explicit constraints in `SKILL.md`, including its footwear exclusion, while inviting a coherent direction that expresses the current source. Avoid treating the absence of a prescribed choice as a reason to keep reusing the last one.
 
 ## Judge the whole result
 

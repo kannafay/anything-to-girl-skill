@@ -18,14 +18,15 @@ Imagine the source as a beautiful original adult anime woman. Guide the intended
 - **Original concept:** imagine how the source's distinctive identity, meaning and character could become a person. Aim for a recognizable, inventive interpretation with its own personality and visual identity.
 - **Appeal:** create a beautiful adult woman with presence, femininity and compelling personal style. Let her appearance, expression and fashion emerge from the concept.
 - **Finish:** aim for refined, expressive 2D character illustration. Genshin Impact's official illustrations are a broad reference for polish and appeal, not a prescribed wardrobe or character template. Follow any user-specified art direction.
-- **Creative freedom:** leave unspecified design decisions open. No default garment genre, hairstyle, footwear, hosiery, skin exposure or pose is required. Shared illustration quality should allow distinct character concepts.
-- **Variety:** across new sources, seek meaningful differences in the overall styling and visual identity. Use recent results to notice a recurring formula, then invite a fresh concept suited to the new source. Footwear, legwear and coverage are part of that creative choice, without a fixed selection list, rotation or ban on an otherwise suitable combination.
+- **Creative freedom:** leave unspecified design decisions open within the user's constraints. No default garment genre, hairstyle, footwear type, hosiery, skin exposure or pose is required. Shared illustration quality should allow distinct character concepts.
+- **Variety:** across new sources, seek meaningful differences in the overall styling and visual identity. Use recent results to notice a recurring formula, then invite a fresh concept suited to the new source. Footwear, legwear and coverage are creative choices within explicit exclusions, without a fixed selection list or rotation.
 
 Read [design-language.md](references/design-language.md) when the concept feels generic or too close to an earlier result.
 
 ## Output format
 
 - One adult character shown once in a standalone full-body composition, with the entire head and both feet visible. Keep the background secondary to the character.
+- Require closed-toe footwear. No sandals or open-toe shoes, including high-heeled and strappy sandals. Choose the remaining footwear and legwear freely to suit the character.
 - No text anywhere, including clothes and props. No panels, inset portraits, extra views, turnarounds or collages. A style reference's layout does not change this format.
 
 ## Compose, generate and deliver

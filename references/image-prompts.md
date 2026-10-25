@@ -4,7 +4,7 @@ Use the core prompt as a flexible expression of intent. Identify the current sou
 
 ## Core prompt
 
-"Create a new, independent adult female personification of [SOURCE], not an edit of an earlier character. Invent a distinctive, beautiful character with a coherent personal style shaped by this source. Freely explore a fresh design direction rather than a recurring outfit or styling formula. Refined, expressive 2D illustration with Genshin Impact-level polish. One complete full-body character, no text, panels or inset views."
+"Create a new, independent adult female personification of [SOURCE], not an edit of an earlier character. Invent a distinctive, beautiful character with a coherent personal style shaped by this source. Freely explore a fresh design direction rather than a recurring outfit or styling formula. Refined, expressive 2D illustration with Genshin Impact-level polish. One complete full-body character wearing closed-toe footwear; no sandals, open-toe shoes, text, panels or inset views."
 
 ## New creation or revision
 
@@ -21,4 +21,4 @@ Use the core prompt as a flexible expression of intent. Identify the current sou
 
 ## Revision prompt
 
-"Apply [REQUESTED CHANGE] to this adult character, preserving her identity and unmentioned design. Maintain a refined, text-free full-body illustration."
+"Apply [REQUESTED CHANGE] to this adult character, preserving her identity and unmentioned design. Maintain a refined, text-free full-body illustration with closed-toe footwear. No sandals or open-toe shoes."
