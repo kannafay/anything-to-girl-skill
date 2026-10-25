@@ -17,6 +17,7 @@ Use `[CHARACTER CONCEPT]` for a concise interpretation of the source's identity 
 ## Tailor it to the request
 
 - Add necessary source context and the user's explicit requests. Avoid filling in every visual decision before generation.
+- When calf contours are visible, including through hosiery, use a concise aesthetic cue: "Slender, well-proportioned lower legs with subtle calf volume, a gentle knee-to-calf transition and smooth contours tapering toward the ankles; natural anatomy without a prominent rounded calf bulge." Coverage, legwear and pose remain creative choices.
 - Make the complete setting part of the request; do not reduce it to a plain or gradient backdrop unless the user asks for that treatment.
 - Choose afresh whether a small artistic typographic accent should appear, allowing either outcome without a fixed frequency or rotation. If included, keep wording brief and legible, place it away from the character, and keep its visual weight low. Do not automatically append a title or source name to every image.
 - Make the selected concept carry the creative direction. If a result lacks impact, reconsider the concept before extending the prompt with more decoration or synonyms for quality.
