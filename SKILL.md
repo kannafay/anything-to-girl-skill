@@ -1,5 +1,5 @@
 ---
-name: everything-to-anime-girl
+name: anything-to-girl-skill
 description: "Turn any object, product, animal, food, vehicle, building, brand/logo, photo, or abstract idea into a distinctive original adult female anime character (moe anthropomorphism / gijinka). Use for requests to personify something as an anime girl, create character art from a pictured item or logo, or when the user says '\u4e07\u7269\u7686\u53ef\u5a18\u5316', '\u5a18\u5316', '\u62df\u4eba\u5316', or '\u4e8c\u6b21\u5143\u7acb\u7ed8'. Accept a text name, an uploaded image, or both; generate one standalone full-body character illustration without text, or provide reusable prompts when requested. Preserve recognizable source characteristics rather than making a generic anime girl."
 ---
 
