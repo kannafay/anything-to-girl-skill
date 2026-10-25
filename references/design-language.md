@@ -8,6 +8,12 @@ Consider what makes this source distinct in form, purpose, meaning or associatio
 
 Keep meaningful recognizability while allowing metaphor, surprise and interpretation. The source can inspire more than its palette or emblem.
 
+## Compare the creative ideas
+
+For a new creation or a requested redesign, consider alternatives that differ in personality and overall visual idea. Compare their first impression: would the character's face, presence and design remain interesting without the source name or a prominent emblem? Prefer an appealing, coherent interpretation with a memorable idea over a safe recoloring of a familiar character.
+
+Select a concise concept that communicates who this woman is and what makes her distinctive. Give it a clear character identity and expressive visual premise instead of only flattering adjectives or a generic role. This is specificity of creative intent, not a costume recipe; leave the visual realization open. Preserve the existing concept for requests that only change a local detail.
+
 ## Let the concept produce the design
 
 Express the intended personality, appeal and overall mood. Leave visual solutions to the image model unless the user has selected them. There is no standard outfit, beauty formula or fixed balance of exposed and covered skin.
@@ -20,8 +26,8 @@ Variety is a goal for the whole design, not a demand to cycle through a wardrobe
 
 ## Judge the whole result
 
-Look for an imaginative, coherent, appealing personification that feels connected to its source. Refined drawing and a resolved design should support that identity; quantity of ornament is not a quality target.
+Look for an imaginative, coherent, appealing personification that feels connected to its source. Assess whether the overall design has a clear visual focus and whether the intended personality is apparent. Refined drawing should support that identity; quantity of ornament is not a quality target.
 
-If a result repeats a previous concept, return to what makes the new source distinctive. Changing colors or adding a different emblem may leave the underlying character unchanged.
+If a result repeats a previous concept or feels technically polished but unremarkable, revisit the interpretation and its appeal. Changing colors, adding an emblem or attaching more ribbons may leave the underlying character unchanged.
 
 If results continue to converge, inspect the actual tool prompt and image inputs when available. Distinguish a generic concept from accidental reuse of an earlier generation. Do not claim to have isolated a request or cleared context unless the available tool controls support that claim.

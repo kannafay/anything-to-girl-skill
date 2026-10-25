@@ -1,10 +1,12 @@
 # Compact production prompts
 
-Use the core prompt as a flexible expression of intent. Identify the current source and preserve explicit user choices. Let the image model develop the character's visual design.
+Use the core prompt as a flexible expression of intent. Identify the current source, choose a compelling character concept and preserve explicit user choices. Let the image model develop the visual design.
 
 ## Core prompt
 
-"Create a new, independent adult female personification of [SOURCE], not an edit of an earlier character. Invent a distinctive, beautiful character with a coherent personal style shaped by this source. Freely explore a fresh design direction rather than a recurring outfit or styling formula. Refined, expressive 2D illustration with Genshin Impact-level polish. One complete full-body character wearing closed-toe footwear; no sandals, open-toe shoes, text, panels or inset views."
+"Create a new, independent adult female personification of [SOURCE], guided by [CHARACTER CONCEPT]. Give her captivating beauty, distinctive presence and a memorable, coherent overall design with a clear visual focus. Interpret the source inventively, using its motifs selectively. Freely develop the visual details. Refined, expressive 2D anime illustration with fine integrated linework and nuanced layered coloring. One complete full-body character wearing closed-toe footwear, with a subordinate background; no sandals, open-toe shoes, text, panels or inset views."
+
+Use `[CHARACTER CONCEPT]` for a concise interpretation of the source's identity and the woman's personality. Choose it after comparing different overall ideas; do not fill this slot with a garment inventory, a standard persona used for every source, or a string of quality adjectives.
 
 ## New creation or revision
 
@@ -15,6 +17,8 @@ Use the core prompt as a flexible expression of intent. Identify the current sou
 ## Tailor it to the request
 
 - Add necessary source context and the user's explicit requests. Avoid filling in every visual decision before generation.
+- Make the selected concept carry the creative direction. If a result lacks impact, reconsider the concept before extending the prompt with more decoration or synonyms for quality.
+- If a brand name or named style reference appears to pull results toward a recurring archetype, try expressing the relevant source identity and illustration qualities descriptively. Preserve the actual source's meaning and recognizable features; a different wording is a test of the visual association, not proof of its cause.
 - For supplied images, identify source/identity and style-only roles. A style guide conveys quality without defining the new character's appearance or outfit.
 - When several results repeat a styling formula, ask for meaningful overall variation tied to the source. Let the image model choose the actual combination; do not substitute a mandatory footwear or hosiery schedule.
 - For an unwanted result, clarify the intended outcome or change only the requested aspect. Avoid accumulating permanent rules for each failed example.
