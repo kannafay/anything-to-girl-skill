@@ -1,6 +1,12 @@
 # Developing an original personification
 
-Read when a concept feels generic or repeats an earlier character. Use this to rethink the creative intent, not to build a detailed costume brief.
+Read for person/character conversions or when a concept feels generic or repeats an earlier character. Use concept-selection guidance for personification or creative redesign; retain the supplied character concept for style-only conversions. Keep this a guide to creative intent, not a detailed costume brief.
+
+## People and existing characters
+
+For a female reinterpretation of a person or character, retain the distinctive appearance, personality and signature motifs that make the source recognizable while developing the requested adult female design.
+
+For a style-only conversion, keep the supplied character's identity and defining costume features. Let the requested style reshape proportions, facial treatment, limb shapes and detail level throughout the figure. Chibi treatment should simplify the body and clothing as well as the head. Choose a coherent degree of exaggeration suited to the request; a fixed head-to-body ratio is not required.
 
 ## Start from the source's identity
 
@@ -10,7 +16,7 @@ Keep meaningful recognizability while allowing metaphor, surprise and interpreta
 
 ## Compare the creative ideas
 
-For a new creation or a requested redesign, consider alternatives that differ in personality and overall visual idea. Compare their first impression: would the character's face, presence and design remain interesting without the source name or a prominent emblem? Prefer an appealing, coherent interpretation with a memorable idea over a safe recoloring of a familiar character.
+For personification or a requested creative redesign, consider alternatives that differ in personality and overall visual idea. Compare their first impression: would the character's face, presence and design remain interesting without the source name or a prominent emblem? Prefer an appealing, coherent interpretation with a memorable idea over a safe recoloring of a familiar character.
 
 Select a concise concept that communicates who this woman is and what makes her distinctive. Give it a clear character identity and expressive visual premise instead of only flattering adjectives or a generic role. This is specificity of creative intent, not a costume recipe; leave the visual realization open. Preserve the existing concept for requests that only change a local detail.
 
@@ -22,9 +28,9 @@ Favor individual, fashion-led combinations held together by the character's iden
 
 Consider footwear while developing the whole silhouette. Shaft height, heel design and legwear can change the outfit's character as much as the upper body. Tall boots, thigh-high heeled boots and closed-toe pumps are among the possibilities, with no fixed catalog or rotation. A setting's practical associations can inspire imaginative fashion; they need not dictate ordinary short shoes.
 
-For visible leg contours, favor the clean, flowing shape language of manga. Use elongated proportions and smooth tapering with simplified knees, calves and muscle shading. Carry this stylization through hosiery as well; detailed lighting should not turn the legs into an anatomical muscle study.
+For visible leg contours in the default full-proportion style, favor the clean, flowing shape language of manga. Use elongated proportions and smooth tapering with simplified knees, calves and muscle shading, including through hosiery. For chibi or another requested figure style, replace those default proportions with a consistent treatment of the whole body.
 
-For a new source, develop a fresh identity. An earlier success establishes a quality reference, not a reusable character to recolor. Preserve continuity when the user explicitly requests the same character.
+For a new personification, develop an independent design rooted in the current source. An earlier success establishes a quality reference, not a reusable character to recolor. Preserve continuity for style conversions and other requests involving an existing character.
 
 Use recent outputs to notice repeated styling rather than automatically passing them back as visual inputs. Referencing an earlier character as a style guide requires explicit user intent, with the reference's role clearly limited to illustration quality.
 
@@ -38,8 +44,8 @@ Lettering is an optional compositional accent, not a required part of every imag
 
 ## Judge the whole result
 
-Look for an imaginative, coherent, appealing personification that feels connected to its source. Assess whether the overall design has a clear visual focus and whether the intended personality is apparent. Refined drawing should support that identity; quantity of ornament is not a quality target.
+For personification, look for an imaginative, coherent, appealing interpretation that feels connected to its source. For a style-only conversion, assess whether the supplied character remains recognizable and the requested style is consistent across the whole figure. In both cases, judge the visual focus and expressive identity; quantity of ornament is not a quality target.
 
-If a result repeats a previous concept or feels technically polished but unremarkable, revisit the interpretation and its appeal. Changing colors, adding an emblem or attaching more ribbons may leave the underlying character unchanged.
+If a new personification repeats a previous concept or feels technically polished but unremarkable, revisit the interpretation and its appeal. Changing colors, adding an emblem or attaching more ribbons may leave the underlying character unchanged.
 
-If results continue to converge, inspect the actual tool prompt and image inputs when available. Distinguish a generic concept from accidental reuse of an earlier generation. Do not claim to have isolated a request or cleared context unless the available tool controls support that claim.
+If independent designs continue to converge, inspect the actual tool prompt and image inputs when available. Distinguish a generic concept from accidental reuse of an earlier generation. Do not claim to have isolated a request or cleared context unless the available tool controls support that claim.
