@@ -28,7 +28,7 @@ Favor individual, fashion-led combinations held together by the character's iden
 
 Consider footwear while developing the whole silhouette. Shaft height, heel design and legwear can change the outfit's character as much as the upper body. Tall boots, thigh-high heeled boots and closed-toe pumps are among the possibilities, with no fixed catalog or rotation. A setting's practical associations can inspire imaginative fashion; they need not dictate ordinary short shoes.
 
-For visible legs in the default full-proportion style, prioritize continuous contour rhythm and balanced thigh-to-lower-leg proportions. Keep thighs softly full, knees subtle and calf curves shallow, with a long, smooth taper toward the ankles. Use broad, quiet shading, including through hosiery. Extra length or uniform thinning does not replace well-shaped contours. For chibi or another requested figure style, replace those default proportions with a consistent treatment of the whole body.
+For visible legs in the default full-proportion style, prioritize continuous contour rhythm and balanced thigh-to-lower-leg proportions. Keep thighs softly full, the knee blended into the surrounding silhouette, and the lower-leg contours gently tapered with shallow curvature. Calf-muscle volume should remain subdued; avoid an outward rounded bulge or a sharply projecting kneecap. Use broad, quiet shading, including through hosiery, without isolated knee highlights or dark muscle borders. Let the pose preserve this leg-line quality while keeping it expressive. Extra length or uniform thinning does not replace well-shaped contours. For chibi or another requested figure style, use a consistent treatment of the whole body.
 
 When the user supplies leg-shape photographs, use them for silhouette and proportions unless another role is explicitly requested. Translate those qualities into the requested illustration style, keeping the reference's photographic surface treatment, clothing and identity separate from the leg-shape guidance. Wardrobe, hosiery and footwear remain choices suited to the character.
 
@@ -40,7 +40,7 @@ Variety is a goal for the whole design, not a demand to cycle through a wardrobe
 
 ## Illustration finish and visual hierarchy
 
-For the default style, describe a hand-drawn 2D illustration with expressive linework, deliberately shaped shadows and nuanced color transitions. Create depth through drawn shapes, overlapping planes and painted atmospheric perspective. Keep clothing folds, skin and architecture in the same illustration language. Detailed photorealistic material shading or a 3D-model finish can overwhelm that language.
+For the default style, specify a finished hand-drawn 2D illustration in the initial production prompt, with expressive linework, deliberately shaped shadows and nuanced color transitions. Create depth through drawn shapes, overlapping planes and painted atmospheric perspective. Keep clothing folds, skin and architecture in the same illustration language. Retain fine facial drawing, purposeful fabric detail and selected decorative accents. Control their distribution and surface treatment while preserving finesse. Do not plan an initial 3D-looking render followed by a simplified 2D repaint.
 
 Let materials remain distinct while controlling shine. Use a soft, restrained finish on skin and cloth; metal, glass or water may have selective crisp accents. Judge highlight size, brightness and repetition across the whole image. Avoid turning every fold, surface and edge into a glossy highlight. This is control of the surface treatment, not a requirement to mute the palette or make every material matte.
 
@@ -52,14 +52,16 @@ Give the character a complete environment that belongs to her concept. Establish
 
 Lettering is an optional compositional accent, not a required part of every image. Decide afresh whether to include it. A brief source name or fitting title may use artistic lettering in a quiet area, with visual weight kept below the character and the main scene. An image without lettering is equally valid.
 
-## Judge the whole result
+## Inspect once and stop
+
+These are read-only inspection criteria after the requested image is returned. They do not authorize another generation, a correction pass or a comparison image. Report a material issue briefly and stop; a later explicit correction request can use the observations below. Apply the same criteria during prompt planning before the first call.
 
 For personification, look for an imaginative, coherent, appealing interpretation that feels connected to its source. For a style-only conversion, assess whether the supplied character remains recognizable and the requested style is consistent across the whole figure. In both cases, judge the visual focus and expressive identity; quantity of ornament is not a quality target.
 
-At a small preview size, check whether the face and character still read first. Inspect the full image for pervasive gloss, repeated bright specks and inconsistent 2D/3D treatment. A focused correction should adjust the surface treatment or simplify competing secondary areas while preserving the character, palette and meaningful scene elements.
+At a small preview size, check whether the face and character still read first. Inspect the full image for pervasive gloss, repeated bright specks and inconsistent 2D/3D treatment. If the user later requests a correction, focus its prompt on surface treatment or competing secondary areas while preserving the character, palette and meaningful scene elements.
 
-For visible legs, assess the thigh-to-knee transition and knee-to-ankle contour as one coherent flow, including through hosiery. Correct pronounced calf bulges, pinched knees or separate muscle highlights through contour and shading choices; simply stretching or narrowing the whole leg may leave the same underlying problem.
+For visible legs, assess the thigh-to-knee transition and knee-to-ankle contour as one coherent flow, including through hosiery. Look for outward calf bulges, pinched or projecting knees and isolated muscle highlights. Record these as shortcomings when present; simply stretching or narrowing the whole leg in a later requested edit may leave the same underlying problem.
 
-If a new personification repeats a previous concept or feels technically polished but unremarkable, revisit the interpretation and its appeal. Changing colors, adding an emblem or attaching more ribbons may leave the underlying character unchanged.
+If a new personification repeats a previous concept or feels technically polished but unremarkable, consider that in planning for a later requested creation. Changing colors, adding an emblem or attaching more ribbons may leave the underlying character unchanged. Do not generate another concept automatically.
 
 If independent designs continue to converge, inspect the actual tool prompt and image inputs when available. Distinguish a generic concept from accidental reuse of an earlier generation. Do not claim to have isolated a request or cleared context unless the available tool controls support that claim.

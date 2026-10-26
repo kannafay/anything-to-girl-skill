@@ -6,6 +6,8 @@ Genshin Impact's illustrations are a broad quality reference. Default to a consi
 
 Load [SKILL.md](SKILL.md) from the repository root using your agent's skill support. Keep its companion text files available: [design language](references/design-language.md), [image prompts](references/image-prompts.md), and [UI metadata](agents/openai.yaml). Image generation and editing require suitable tools in the host environment. Skill instructions and generation prompts are in English.
 
+The default request makes at most one image-generation or edit call for one finished image. Plan the intended 2D treatment, detail hierarchy and leg silhouette together before that call. Inspect the result read-only, deliver it once and stop; automatic repaints, polishing passes and correction variants are excluded. Further image calls require an explicit user request. This is a skill instruction, not a runtime tool interceptor.
+
 ## Packaging
 
 Run from the repository root:
