@@ -1,22 +1,17 @@
 # anything-to-girl-skill
 
-A portable Agent Skill that turns objects, logos, images, concepts, people and existing characters into recognizable adult female anime characters. It also supports identity-preserving style conversions and local revisions. For personification or creative redesign, compare whole-character ideas and carry a compelling concept into a concise prompt. For a style-only request, keep the source character's identity and translate the whole figure into the requested style; chibi proportions replace the default elongated leg treatment.
+A portable skill for adult female anime personification, identity-preserving character restyling and chibi conversion.
 
-Genshin Impact's illustrations are a broad quality reference. Default to a consistent hand-drawn 2D treatment with expressive lines, designed shadows, restrained sheen and a clear character-first visual hierarchy. Complete settings use selective detail and calm areas to support the figure. Encourage coherent fashion mixing and manga-style leg lines while leaving wardrobe and hosiery choices open. For new designs, explore footwear as part of the silhouette, including tall or thigh-high heeled boots and closed-toe high heels. Sandals and open-toe shoes are excluded. Independent personifications use fresh-generation controls when available and only relevant image inputs; conversions preserve the supplied character. Skill invocation does not reset the host conversation. Output is one full-body character in a complete illustrated setting, without extra views. Small artistic lettering may appear as an unobtrusive accent, with its presence varied rather than required. Text-only concept and prompt requests remain text-only.
+[SKILL.md](SKILL.md) contains the shared workflow, art direction and output rules. [Design language](references/design-language.md) helps with repetitive concepts; [prompt scaffolds](references/image-prompts.md) are optional. [UI metadata](agents/openai.yaml) retains the Chinese display name.
 
-Load [SKILL.md](SKILL.md) from the repository root using your agent's skill support. Keep its companion text files available: [design language](references/design-language.md), [image prompts](references/image-prompts.md), and [UI metadata](agents/openai.yaml). Image generation and editing require suitable tools in the host environment. Skill instructions and generation prompts are in English.
-
-The default request makes at most one image-generation or edit call for one finished image. Plan the intended 2D treatment, detail hierarchy and leg silhouette together before that call. Inspect the result read-only, deliver it once and stop; automatic repaints, polishing passes and correction variants are excluded. Further image calls require an explicit user request. This is a skill instruction, not a runtime tool interceptor.
+The default is one finished hand-drawn 2D illustration from at most one image-generation or edit call. Fashion choices remain open; backgrounds use economical painted forms and selective detail. The stopping rule is an instruction for the host, not a runtime tool interceptor.
 
 ## Packaging
 
-Run from the repository root:
+Run from this directory:
 
-```sh
-pnpm install --frozen-lockfile
-pnpm build
-```
+    pnpm install --frozen-lockfile
+    pnpm test
+    pnpm build
 
-Set `version` in [package.json](package.json) before a release. The build writes `dist/anything-to-girl-skill-<version>.zip`, containing `SKILL.md`, `agents/openai.yaml`, `references/design-language.md`, and `references/image-prompts.md` under `anything-to-girl-skill/`. Only these four text files are included. Building does not change the version.
-
-Run `pnpm test` to check complete packaging of the skill and its companion text files, exclusion of extra assets, version naming, reproducibility, and invalid or missing inputs.
+Set the release version in package.json. The build creates dist/anything-to-girl-skill-<version>.zip with exactly four text files under anything-to-girl-skill/: SKILL.md, agents/openai.yaml and both reference files. Extra assets and development files are excluded.
