@@ -28,7 +28,9 @@ Favor individual, fashion-led combinations held together by the character's iden
 
 Consider footwear while developing the whole silhouette. Shaft height, heel design and legwear can change the outfit's character as much as the upper body. Tall boots, thigh-high heeled boots and closed-toe pumps are among the possibilities, with no fixed catalog or rotation. A setting's practical associations can inspire imaginative fashion; they need not dictate ordinary short shoes.
 
-For visible leg contours in the default full-proportion style, favor the clean, flowing shape language of manga. Use elongated proportions and smooth tapering with simplified knees, calves and muscle shading, including through hosiery. For chibi or another requested figure style, replace those default proportions with a consistent treatment of the whole body.
+For visible legs in the default full-proportion style, prioritize continuous contour rhythm and balanced thigh-to-lower-leg proportions. Keep thighs softly full, knees subtle and calf curves shallow, with a long, smooth taper toward the ankles. Use broad, quiet shading, including through hosiery. Extra length or uniform thinning does not replace well-shaped contours. For chibi or another requested figure style, replace those default proportions with a consistent treatment of the whole body.
+
+When the user supplies leg-shape photographs, use them for silhouette and proportions unless another role is explicitly requested. Translate those qualities into the requested illustration style, keeping the reference's photographic surface treatment, clothing and identity separate from the leg-shape guidance. Wardrobe, hosiery and footwear remain choices suited to the character.
 
 For a new personification, develop an independent design rooted in the current source. An earlier success establishes a quality reference, not a reusable character to recolor. Preserve continuity for style conversions and other requests involving an existing character.
 
@@ -55,6 +57,8 @@ Lettering is an optional compositional accent, not a required part of every imag
 For personification, look for an imaginative, coherent, appealing interpretation that feels connected to its source. For a style-only conversion, assess whether the supplied character remains recognizable and the requested style is consistent across the whole figure. In both cases, judge the visual focus and expressive identity; quantity of ornament is not a quality target.
 
 At a small preview size, check whether the face and character still read first. Inspect the full image for pervasive gloss, repeated bright specks and inconsistent 2D/3D treatment. A focused correction should adjust the surface treatment or simplify competing secondary areas while preserving the character, palette and meaningful scene elements.
+
+For visible legs, assess the thigh-to-knee transition and knee-to-ankle contour as one coherent flow, including through hosiery. Correct pronounced calf bulges, pinched knees or separate muscle highlights through contour and shading choices; simply stretching or narrowing the whole leg may leave the same underlying problem.
 
 If a new personification repeats a previous concept or feels technically polished but unremarkable, revisit the interpretation and its appeal. Changing colors, adding an emblem or attaching more ribbons may leave the underlying character unchanged.
 
