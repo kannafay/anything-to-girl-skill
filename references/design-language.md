@@ -18,6 +18,12 @@ Select a concise concept that communicates who this woman is and what makes her 
 
 Express the intended personality, appeal and overall mood. Leave visual solutions to the image model unless the user has selected them. There is no standard outfit, beauty formula or fixed balance of exposed and covered skin.
 
+Favor individual, fashion-led combinations held together by the character's identity. Contrasts such as soft and structured, refined and utilitarian, or fitted and voluminous can give an outfit personality. These are design relationships to explore, not a requirement to reuse a reference's garments or accessories.
+
+Consider footwear while developing the whole silhouette. Shaft height, heel design and legwear can change the outfit's character as much as the upper body. Tall boots, thigh-high heeled boots and closed-toe pumps are among the possibilities, with no fixed catalog or rotation. A setting's practical associations can inspire imaginative fashion; they need not dictate ordinary short shoes.
+
+For visible leg contours, favor the clean, flowing shape language of manga. Use elongated proportions and smooth tapering with simplified knees, calves and muscle shading. Carry this stylization through hosiery as well; detailed lighting should not turn the legs into an anatomical muscle study.
+
 For a new source, develop a fresh identity. An earlier success establishes a quality reference, not a reusable character to recolor. Preserve continuity when the user explicitly requests the same character.
 
 Use recent outputs to notice repeated styling rather than automatically passing them back as visual inputs. Referencing an earlier character as a style guide requires explicit user intent, with the reference's role clearly limited to illustration quality.
