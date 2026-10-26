@@ -36,15 +36,25 @@ Use recent outputs to notice repeated styling rather than automatically passing 
 
 Variety is a goal for the whole design, not a demand to cycle through a wardrobe catalog. Leave styling choices open within the explicit constraints in `SKILL.md`, including its footwear exclusion, while inviting a coherent direction that expresses the current source. Avoid treating the absence of a prescribed choice as a reason to keep reusing the last one.
 
+## Illustration finish and visual hierarchy
+
+For the default style, describe a hand-drawn 2D illustration with expressive linework, deliberately shaped shadows and nuanced color transitions. Create depth through drawn shapes, overlapping planes and painted atmospheric perspective. Keep clothing folds, skin and architecture in the same illustration language. Detailed photorealistic material shading or a 3D-model finish can overwhelm that language.
+
+Let materials remain distinct while controlling shine. Use a soft, restrained finish on skin and cloth; metal, glass or water may have selective crisp accents. Judge highlight size, brightness and repetition across the whole image. Avoid turning every fold, surface and edge into a glossy highlight. This is control of the surface treatment, not a requirement to mute the palette or make every material matte.
+
+Give the face and character silhouette the clearest reading. Distribute detail deliberately, with quieter areas between accents. Group distant architecture, foliage and reflections into readable shapes; reduce secondary contrast, edge density and repeated bright spots. Do not add scattered glitter, lens-bokeh discs or tiny particles merely to signal detail. A complete setting can be rich while remaining composed and subordinate to the character.
+
 ## Build the character's setting
 
-Give the character a complete environment that belongs to her concept. Establish a sense of place, depth and atmosphere, with lighting and perspective connecting figure and setting. Keep her silhouette and face readable within the scene. A large emblem or decorative glow by itself is not a developed setting; avoid reusing the same stage for unrelated concepts.
+Give the character a complete environment that belongs to her concept. Establish a sense of place, depth and atmosphere, with lighting and perspective connecting figure and setting. Describe environmental features selectively, leaving calm areas around the readable silhouette and face. A large emblem or decorative glow by itself is not a developed setting; avoid reusing the same stage for unrelated concepts.
 
 Lettering is an optional compositional accent, not a required part of every image. Decide afresh whether to include it. A brief source name or fitting title may use artistic lettering in a quiet area, with visual weight kept below the character and the main scene. An image without lettering is equally valid.
 
 ## Judge the whole result
 
 For personification, look for an imaginative, coherent, appealing interpretation that feels connected to its source. For a style-only conversion, assess whether the supplied character remains recognizable and the requested style is consistent across the whole figure. In both cases, judge the visual focus and expressive identity; quantity of ornament is not a quality target.
+
+At a small preview size, check whether the face and character still read first. Inspect the full image for pervasive gloss, repeated bright specks and inconsistent 2D/3D treatment. A focused correction should adjust the surface treatment or simplify competing secondary areas while preserving the character, palette and meaningful scene elements.
 
 If a new personification repeats a previous concept or feels technically polished but unremarkable, revisit the interpretation and its appeal. Changing colors, adding an emblem or attaching more ribbons may leave the underlying character unchanged.
 
