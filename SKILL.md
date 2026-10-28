@@ -1,9 +1,9 @@
 ---
 name: anything-to-girl-skill
-description: "Create recognizable adult female anime personifications from objects, logos, concepts, people or characters. Also use for identity-preserving restyling, chibi/Q版 conversion and related revisions, including 万物皆可娘化, 娘化, 拟人化 and 二次元立绘."
+description: "Create recognizable adult female anime personifications from objects, logos, concepts, people or characters. Also use for identity-preserving restyling, chibi/Q版 conversion and related revisions, including 万物娘化, 娘化, 拟人化 and 二次元立绘."
 ---
 
-# Everything to Anime Girl
+# 万物娘化
 
 Create a beautiful, expressive adult female character rooted in the current source. Explicit user choices override defaults.
 
